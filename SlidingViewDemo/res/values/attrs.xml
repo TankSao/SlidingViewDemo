@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="slidePadding" format="dimension" />
+    <!--
+    0左滑；1右滑；2左右滑
+    -->
+	<attr name="slideType" format="integer"/>
+    <declare-styleable name="SlidingView">
+        <attr name="slidePadding" />
+        <attr name="slideType" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="#1e90ff"
+	    >
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="28sp"
+	        android:textColor="#ffffff"
+	        android:layout_centerInParent="true"
+	        android:text="SlidingViewDemo"
+	        />
+	</RelativeLayout>
+	<android.support.v4.view.ViewPager
+          android:id="@+id/adv_pager"
+          android:layout_width="match_parent"
+          android:layout_height="140dp" >
+    </android.support.v4.view.ViewPager>
+	<LinearLayout
+          android:id="@+id/viewGroup"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="-25px"
+          android:gravity="right"
+          android:orientation="horizontal" >
+     </LinearLayout>
+     <GridView
+          android:id="@+id/gridView"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginBottom="10dp"
+          android:layout_marginTop="5dp"
+          android:layout_weight="1"
+          android:columnWidth="65dp"
+          android:gravity="center"
+          android:horizontalSpacing="0dp"
+          android:listSelector="@drawable/gridviewbackg"
+          android:numColumns="3"
+          android:paddingBottom="10dp"
+          android:stretchMode="spacingWidthUniform"
+          android:verticalSpacing="10dp" />
+</LinearLayout>
